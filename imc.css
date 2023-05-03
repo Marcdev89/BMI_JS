@@ -1,0 +1,49 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+input{
+    display: block;
+}
+
+#result{
+    padding-top: 10px;
+}
+.wrong{
+    background-color: rgb(175, 10, 10);
+}
+.rfield{
+    color: rgb(175, 10, 10);
+    padding: 10px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    height: 35px;
+    width: 55px;
+    border-radius: 5px;
+}
+
+button:hover{
+    
+    background-color: rgb(2, 116, 2);
+    cursor: pointer;
+}
+
+.result{
+    border-radius:  10px 40px 22px;
+    border: solid 1px rgb(2, 116, 2);;
+    padding: 25px;
+    margin-top: 10px;
+    margin-right: 40%;
+    text-align: center;
+    box-shadow: 4px 4px rgb(2, 116, 2);
+   
+  
+   
+}
